@@ -3,9 +3,9 @@
 
 {
     'name': 'Github Events',
-    'version': "14.0.1.0.0",
-    'author': 'Numigi',
-    'maintainer': 'Numigi',
+    'version': "16.0.0.0",
+    'author': 'Numigi,odooChain',
+    'maintainer': 'odooChain,Numigi',
     'website': 'https://bit.ly/numigi-com',
     'license': 'LGPL-3',
     'category': 'Connector',

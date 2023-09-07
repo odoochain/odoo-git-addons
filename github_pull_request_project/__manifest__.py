@@ -18,6 +18,6 @@
         'views/github_pull_request.xml',
         'views/project_task.xml',
     ],
-    'auto_install': True,
+    'auto_install': False,
     'installable': True,
 }

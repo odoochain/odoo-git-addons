@@ -16,7 +16,7 @@ class GithubPullRequestTask(models.Model):
         string='Tasks'
     )
 
-    @api.model
+    @api.model_create_multi
     def create(self, vals):
         pr = super().create(vals)
         pr.task_ids._update_pull_request_tags()
